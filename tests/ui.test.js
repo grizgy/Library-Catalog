@@ -29,7 +29,7 @@ test ("Verify register button is visible", async({page}) => {
 }) 
 
 
-test.only ("Verify all books link is visible after user is logged in", async({page}) => {
+test ("Verify all books link is visible after user is logged in", async({page}) => {
     await page.goto(baseURL);
     await page.waitForSelector("nav.navbar");
 
